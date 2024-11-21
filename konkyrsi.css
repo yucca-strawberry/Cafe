@@ -1,0 +1,82 @@
+body {
+    background-color: #F8F1EA;
+    margin: 0 auto;
+    font-family: "Marmelad", sans-serif;
+}
+
+.all {
+    width: 99.9%;
+    height: 2000px;
+    /* border: 1px solid #F4A460; */
+}
+
+.DivFlex {
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid #F4A460;  */
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.DivPhotoLogotip {
+    width: 9%;
+    height: 80%;
+    /* border: 1px solid #F4A460; */
+    float: left;
+}
+
+.PhotoLogo {
+    width: 86%;
+
+}
+
+.DivLogoWord {
+    width: 10%;
+    height: 90%;
+    /* border: 1px solid #F4A460;  */
+    float: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #BD767A;
+}
+
+.DivWordButton {
+    width: 70%;
+    height: 60%;
+    border: 1px solid #F4A460;  
+    float: left;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.ButtonWordA {
+    font-size: 1.4vw;
+    color: #BD767A;
+}
+
+.SpanColorWordButton {
+    color: #5D6858;
+}
+
+.DFooter {
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid #F4A460;    */
+    background-color: white;
+    align-items: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FooterXZ {
+    /* border: 1px solid #F4A460;     */
+    width: 30%;
+    height: 90px;
+    margin-left: 10%;
+}
